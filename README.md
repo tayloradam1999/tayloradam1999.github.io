@@ -1,4 +1,4 @@
-# [Personal Website](https://tayloradam1999.github.io/personal_website)
+# [Personal Website](https://tayloradam1999.github.io)
 
 This website was made with [Bootstrap](https://getbootstrap.com/), [Font Awesome](https://fontawesome.com/), and [Github Pages](https://pages.github.com/).
 
