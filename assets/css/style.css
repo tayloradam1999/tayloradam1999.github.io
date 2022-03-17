@@ -327,6 +327,9 @@ section {
   text-align: center;
   padding-bottom: 30px;
 }
+.section-title p {
+	text-align: center;
+}
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;
