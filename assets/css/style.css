@@ -479,7 +479,7 @@ section {
 }
 
 #resume #resumeButton {
-	padding: 1rem 1rem !important;
+	padding: 1rem 1.5rem !important;
 	color: white !important;
 	border-color: white !important;
 }
@@ -493,7 +493,8 @@ section {
   	text-shadow:rgba(255, 255, 255, 0.795) 0px 0px 10px;
 	background-image: linear-gradient(to left, #2c3e50, #4ca1af);
 	position: center;
-	width: 1200px;
+	/* width: 1200px; */
+	width: 75%;
 	margin: 0 auto;
 	border-radius: 30px;
 }
@@ -603,13 +604,16 @@ section {
 .contact .php-email-form textarea {
   padding: 10px 12px;
 }
-.contact .php-email-form button[type=submit] {
-	background:rgb(190, 184, 184);
+button[type=submit] {
+  background:rgb(190, 184, 184);
   border: 0;
   padding: 10px 35px;
   color: #fff;
   transition: 0.4s;
   border-radius: 50px;
+}
+button[type=submit]:hover {
+	background: var(--primary-color);
 }
 .contact .php-email-form button[type=submit]:hover {
 	background:var(--primary-color);
@@ -635,7 +639,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-	background: #f7f8f9;
+	background: #fff;
 	color: #45505b;
 	font-size: 14px;
 	text-align: center;
