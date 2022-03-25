@@ -462,6 +462,16 @@ section {
   background: #fff;
   border: 2px solid var(--primary-color);
 }
+.projects #underProject::after {
+  content: "";
+  position: absolute;
+  width: 35%;
+  height: 100%;
+  border-bottom: 2px solid var(--primary-color);
+  top: 0;
+  left: 5;
+  opacity: 0.5;
+}
 
 /*--------------------------------------------------------------
 # Resume
