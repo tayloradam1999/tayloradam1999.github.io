@@ -286,7 +286,6 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   color: rgb(190, 184, 184);
   line-height: 1;
-  margin-right: 20px;
   transition: 0.3s;
 }
 #hero .social-links a:hover {
@@ -410,6 +409,9 @@ section {
   border-left: 2px solid var(--primary-color);
   position: relative;
 }
+#backEnd {
+	padding: 0 0 16px 20px !important;
+}
 .projects .projects-item h4 {
   line-height: 18px;
   font-size: 18px;
@@ -447,6 +449,7 @@ section {
 }
 .projects .projects-item ul > li {
 	display: inline-block;
+	text-align: start;
 }
 .projects .projects-item:last-child {
   padding-bottom: 0;
@@ -471,6 +474,9 @@ section {
   top: 0;
   left: 5;
   opacity: 0.5;
+}
+.projects #underProjectsP {
+	text-align: center;
 }
 
 /*--------------------------------------------------------------
