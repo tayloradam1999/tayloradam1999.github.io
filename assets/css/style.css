@@ -409,8 +409,8 @@ section {
   border-left: 2px solid var(--primary-color);
   position: relative;
 }
-#backEnd {
-	padding: 8px 0 18px 20px !important;
+.projects .side-projects .projects-item {
+	border-right: 2px solid var(--primary-color);
 }
 .projects .projects-item h4 {
   line-height: 18px;
@@ -465,6 +465,17 @@ section {
   background: #fff;
   border: 2px solid var(--primary-color);
 }
+.projects .side-projects .projects-item::after {
+	content: "";
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	border-radius: 50px;
+	right: -9px;
+	top: 0;
+	background: #fff;
+	border: 2px solid var(--primary-color);
+  }
 .projects #underProject::after {
   content: "";
   position: absolute;
@@ -477,6 +488,12 @@ section {
 }
 .projects #underProjectsP {
 	text-align: center;
+}
+#backEnd {
+	padding: 8px 0 18px 20px !important;
+}
+#Winner {
+	max-width: 95% !important;
 }
 
 /*--------------------------------------------------------------
