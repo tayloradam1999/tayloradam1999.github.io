@@ -476,9 +476,9 @@ section {
 	position: relative;
 }
 
-.projects .side-projects .projects-item {
+/* .projects .side-projects .projects-item {
 	border-right: 2px solid var(--primary-color);
-}
+} */
 
 .projects .projects-item h4 {
 	line-height: 18px;
@@ -545,7 +545,7 @@ section {
 	border: 2px solid var(--primary-color);
 }
 
-.projects .side-projects .projects-item::after {
+/* .projects .side-projects .projects-item::after {
 	content: "";
 	position: absolute;
 	width: 16px;
@@ -555,7 +555,7 @@ section {
 	top: 0;
 	background: #fff;
 	border: 2px solid var(--primary-color);
-}
+} */
 
 .projects #underProject::after {
 	content: "";
