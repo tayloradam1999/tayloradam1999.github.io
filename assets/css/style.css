@@ -2,7 +2,7 @@
 # General
 --------------------------------------------------------------*/
 :root {
-	--primary-color: #fac16b;
+	--primary-color: hsl(36, 91%, 65%);
 }
 
 body {
@@ -476,10 +476,6 @@ section {
 	position: relative;
 }
 
-/* .projects .side-projects .projects-item {
-	border-right: 2px solid var(--primary-color);
-} */
-
 .projects .projects-item h4 {
 	line-height: 18px;
 	font-size: 18px;
@@ -493,16 +489,9 @@ section {
 .projects .projects-item h5 {
 	font-size: 16px;
 	background: #f7f8f9;
-	;
 	display: inline-block;
 	font-weight: 600;
 	margin-bottom: 10px;
-}
-
-.projects .projects-item #hero1,
-.projects .projects-item #files-manager,
-.projects .projects-item #react {
-	max-width: 100% !important;
 }
 
 .projects .projects-item a {
@@ -511,9 +500,9 @@ section {
 }
 
 .projects .projects-item a:hover {
-	color: var(--primary-color) !important;
-	border-color: var(--primary-color) !important;
-	background-color: white !important;
+	color: white !important;
+	border-color: white !important;
+	background-color: hsl(36, 92%, 74%) !important;
 }
 
 .projects .projects-item ul {
@@ -545,17 +534,11 @@ section {
 	border: 2px solid var(--primary-color);
 }
 
-/* .projects .side-projects .projects-item::after {
-	content: "";
-	position: absolute;
-	width: 16px;
-	height: 16px;
-	border-radius: 50px;
-	right: -9px;
-	top: 0;
-	background: #fff;
-	border: 2px solid var(--primary-color);
-} */
+.projects .projects-item #hero1,
+.projects .projects-item #files-manager,
+.projects .projects-item #react {
+	max-width: 100% !important;
+}
 
 .projects #underProject::after {
 	content: "";
@@ -591,12 +574,28 @@ section {
 #resume #resumeButton {
 	padding: 1rem 1.5rem !important;
 	color: white !important;
+	border-color: var(--primary-color) !important;
+}
+
+#resume #resumeButton:hover {
+	background-color: var(--primary-color) !important;
+	color: white !important;
 	border-color: white !important;
 }
 
 #resume p {
 	color: white !important;
 	text-align: center;
+}
+
+#resumeDownload {
+	color: var(--primary-color) !important;
+	text-shadow: none !important;
+}
+
+#resumeDownload:hover {
+	color: white !important;
+	text-shadow: none !important;
 }
 
 .resume {
