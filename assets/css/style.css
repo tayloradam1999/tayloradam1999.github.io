@@ -540,28 +540,10 @@ section {
 	max-width: 100% !important;
 }
 
-.projects #underProject::after {
-	content: "";
-	position: absolute;
-	width: 35%;
-	height: 100%;
-	border-bottom: 2px solid var(--primary-color);
-	top: 0;
-	left: 5;
-	opacity: 0.5;
-}
-
-.projects #underProjectsP {
-	text-align: center;
-}
-
 #backEnd {
 	padding: 8px 0 18px 20px !important;
 }
 
-#Winner {
-	max-width: 95% !important;
-}
 
 /*--------------------------------------------------------------
 # Resume
@@ -612,7 +594,13 @@ section {
 .resume-title {
 	color: var(--primary-color);
 	text-shadow: rgba(255, 255, 255, 0.795) 0px 0px 10px;
-	font-size: 48px;
+	font-size: 36px;
+}
+
+@media screen and (min-width: 576px) {
+	.resume-title {
+		font-size: 48px;
+	}
 }
 
 /*--------------------------------------------------------------
