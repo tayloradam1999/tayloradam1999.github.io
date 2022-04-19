@@ -16,8 +16,8 @@ a {
 }
 
 a:hover {
-	color: #067ded;
-	text-decoration: none;
+	color: #067ded !important;
+	text-decoration: none !important;
 }
 
 h1,
@@ -501,7 +501,6 @@ section {
 
 .projects .projects-item a:hover {
 	color: white !important;
-	border-color: white !important;
 	background-color: hsl(36, 92%, 74%) !important;
 }
 
@@ -538,6 +537,23 @@ section {
 .projects .projects-item #files-manager,
 .projects .projects-item #react {
 	max-width: 100% !important;
+}
+
+#Rachel,
+#Bree,
+#freetogame,
+#openweather {
+	color: var(--primary-color) !important;
+	text-decoration: none !important;
+}
+
+#Rachel:hover,
+#Bree:hover,
+#freetogame:hover,
+#openweather:hover {
+	color: #067ded !important;
+	text-decoration: none !important;
+	background-color: transparent !important;
 }
 
 #backEnd {
