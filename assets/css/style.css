@@ -563,6 +563,28 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+.resume {
+	color: var(--primary-color);
+	text-shadow: rgba(255, 255, 255, 0.795) 0px 0px 10px;
+	background-image: linear-gradient(to left, #2c3e50, #4ca1af);
+	position: center;
+	/* width: 1200px; */
+	width: 75%;
+	margin: 0 auto;
+	border-radius: 30px;
+}
+
+.resume-title {
+	color: var(--primary-color);
+	text-shadow: rgba(255, 255, 255, 0.795) 0px 0px 10px;
+	font-size: 36px;
+}
+
+@media screen and (min-width: 576px) {
+	.resume-title {
+		font-size: 48px;
+	}
+}
 
 #resume {
 	min-height: 50vh;
@@ -593,29 +615,6 @@ section {
 #resumeDownload:hover {
 	color: white !important;
 	text-shadow: none !important;
-}
-
-.resume {
-	color: var(--primary-color);
-	text-shadow: rgba(255, 255, 255, 0.795) 0px 0px 10px;
-	background-image: linear-gradient(to left, #2c3e50, #4ca1af);
-	position: center;
-	/* width: 1200px; */
-	width: 75%;
-	margin: 0 auto;
-	border-radius: 30px;
-}
-
-.resume-title {
-	color: var(--primary-color);
-	text-shadow: rgba(255, 255, 255, 0.795) 0px 0px 10px;
-	font-size: 36px;
-}
-
-@media screen and (min-width: 576px) {
-	.resume-title {
-		font-size: 48px;
-	}
 }
 
 /*--------------------------------------------------------------
