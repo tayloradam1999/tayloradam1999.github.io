@@ -556,6 +556,10 @@ section {
 	background-color: transparent !important;
 }
 
+#lastProjectButton {
+	margin-bottom: 28px !important;
+}
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
@@ -568,11 +572,11 @@ section {
 	padding: 1rem 1.5rem !important;
 	color: white !important;
 	border-color: var(--primary-color) !important;
+	border-width: 2px;
 }
 
 #resume #resumeButton:hover {
 	background-color: var(--primary-color) !important;
-	color: white !important;
 	border-color: white !important;
 }
 
